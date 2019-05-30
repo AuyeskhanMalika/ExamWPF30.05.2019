@@ -22,7 +22,7 @@ namespace Exam30._05._2019WPF
         [JsonProperty("title")]
         public string Title { get; set; }
 
-        [JsonProperty("DepthMin")]
-        public double? DepthMin { get; set; }
+        [JsonProperty("depth")]
+        public OriginProperty Depth { get; set; }
     }
 }

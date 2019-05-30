@@ -62,6 +62,7 @@
     <Compile Include="IDownloader.cs" />
     <Compile Include="ILogger.cs" />
     <Compile Include="MicroSecondEpochConverter.cs" />
+    <Compile Include="OriginProperty.cs" />
     <Compile Include="Property.cs" />
     <Page Include="CoolTheme.xaml">
       <SubType>Designer</SubType>
