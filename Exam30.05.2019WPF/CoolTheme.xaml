@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Exam30._05._2019WPF">
+    <Style TargetType="DataGrid">
+        <Style.Setters>
+            <Setter Property="Background" Value="LightCyan"/>
+            <Setter Property="Foreground" Value="DeepSkyBlue"/>
+            <Setter Property="FontFamily" Value="Century"/>
+        </Style.Setters>
+    </Style>
+
+    <Style TargetType="TextBox">
+        <Style.Setters>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="FontFamily" Value="Adobe Caslon Pro Bold"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style.Setters>
+    </Style>
+
+    <Style TargetType="Button">
+        <Style.Setters>
+            <Setter Property="Background" Value="PaleTurquoise"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Century"/>
+        </Style.Setters>
+    </Style>
+
+    <Style TargetType="Grid">
+        <Style.Setters>
+            <Setter Property="Background" Value="FloralWhite"/>
+        </Style.Setters>
+    </Style>
+</ResourceDictionary>
