@@ -3,21 +3,24 @@
                     xmlns:local="clr-namespace:Exam30._05._2019WPF">
     <Style TargetType="DataGrid">
         <Style.Setters>
-            <Setter Property="Background" Value="LightCyan"/>
-            <Setter Property="Foreground" Value="DeepSkyBlue"/>
+            <Setter Property="Background" Value="Lavender"/>
+            <Setter Property="Foreground" Value="Black"/>
             <Setter Property="FontFamily" Value="Century"/>
+            <Setter Property="FontWeight" Value="Bold"/>
         </Style.Setters>
     </Style>
 
+    
     <Style TargetType="TextBox">
         <Style.Setters>
             <Setter Property="Background" Value="White"/>
-            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="Foreground" Value="DarkSlateGray"/>
             <Setter Property="FontFamily" Value="Adobe Caslon Pro Bold"/>
-            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontSize" Value="19"/>
         </Style.Setters>
     </Style>
 
+    
     <Style TargetType="Button">
         <Style.Setters>
             <Setter Property="Background" Value="PaleTurquoise"/>
@@ -26,9 +29,10 @@
         </Style.Setters>
     </Style>
 
+    
     <Style TargetType="Grid">
         <Style.Setters>
-            <Setter Property="Background" Value="FloralWhite"/>
+            <Setter Property="Background" Value="MistyRose"/>
         </Style.Setters>
     </Style>
 </ResourceDictionary>

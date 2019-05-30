@@ -13,6 +13,5 @@
         <DataGrid Name="earthquakesDataGrid" HorizontalAlignment="Left" Height="331" VerticalAlignment="Top" Width="795" Margin="0,0,-3,0"/>
         <TextBox Name="textBox" HorizontalAlignment="Left" Height="30" Margin="25,360,0,0" TextWrapping="Wrap" Text="Insert the number" VerticalAlignment="Top" Width="190" GotFocus="TextBoxGotFocus"/>
         <Button Name="SearchButton" Content="Search" HorizontalAlignment="Left" Height="30" Margin="559,360,0,0" VerticalAlignment="Top" Width="180" Click="SearchButtonClick"/>
-
     </Grid>
 </Window>
